@@ -1,0 +1,51 @@
+header {
+    width: 100%;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+nav {
+    display: block;
+}
+
+li {
+    display: inline;
+}
+
+.contact-box {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding-top: 2px;
+}
+
+.contact-box h2 {
+    margin-bottom: 15px;
+}
+
+.contact-box form input,
+.contact-box form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact-box form button {
+    width: 100px;
+    padding: 1px;
+    background-color: beige;
+    color: purple;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
