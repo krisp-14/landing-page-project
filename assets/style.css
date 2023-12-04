@@ -1,7 +1,6 @@
 header {
     width: 100%;
     background-color: antiquewhite;
-    position: fixed;
     top: 0;
     z-index: 2;
 }
@@ -9,14 +8,6 @@ header {
 h1 {
     text-align: center;
     color: black;
-}
-
-nav {
-    display: block;
-}
-
-ul {
-    float: left;
 }
 
 li {
@@ -28,7 +19,6 @@ li {
     padding: 20px;
     border: 2px solid #ccc;
     border-radius: 5px;
-    padding-top: 350px;
 }
 
 .contact-box h2 {
